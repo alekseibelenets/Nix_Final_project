@@ -1,0 +1,103 @@
+.door-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*color: #ffffff;*/
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #0d062a;
+}
+.a{
+    /*background-color: #0d062a;*/
+}
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-text {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.reset-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #008080;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.reset-button:hover {
+    background-color: #006666;
+}
+
+.doors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction-text {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.doors {
+    display: flex;
+    gap: 1rem;
+}
+
+.door-button {
+    font-size: 1.5rem;
+    height: 411px;
+    width: 180px;
+    border: none;
+    margin-right: 40px;
+    border-radius: 0.5rem;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-image: url("./image/door.jpg");
+}
+
+.door-button:hover {
+    background-color: #006666;
+}
+
+.result-container {
+    position: absolute;
+    top:200px;
+    right: 20px;
+    width: 200px;
+    background-color: #0d062a;
+    color: white;
+
+}
+
+.result-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.result-item {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}

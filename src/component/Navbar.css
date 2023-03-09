@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    background-color: #0d062a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.header p{
+    margin-right: 50px;
+}

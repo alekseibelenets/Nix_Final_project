@@ -1,0 +1,59 @@
+.home-text{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight:500;
+    color: #ffffff;
+    background-color: #0d062a;
+    border-radius:0 0 15px 15px;
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 40px;
+}
+.block{
+    margin-right: 50px;
+    flex-basis:200px;
+    padding: 70px 10px;
+    border-radius: 20px;
+    background: #0d062a;
+    text-align: center;
+}
+
+.block:hover{
+    transition: 0.5ms;
+    background-color: #023f2c;
+}
+.home-btn-one, .home-btn-two, .home-btn-three {
+    padding: 80px;
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+.home-btn-one {
+    background-image: url("./image/count.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-btn-two{
+    background-image: url("./image/door2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-btn-three{
+    background-image: url("./image/flip.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block p{
+    font-size: 25px;
+    color: white;
+}
