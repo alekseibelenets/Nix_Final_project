@@ -1,9 +1,7 @@
 const defaultState = {
-   user:{
        name:'',
        money: 0,
        total: 0,
-   }
 };
 
 export const reducer = (state = defaultState, action) => {

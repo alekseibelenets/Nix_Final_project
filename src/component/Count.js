@@ -64,7 +64,7 @@ const GuessNumber = () => {
                     type="number"
                     value={guess}
                     onChange={(e) => setGuess(e.target.value)}
-                    required
+
                 />
                 <button type="submit">Перевірити</button>
             </form>

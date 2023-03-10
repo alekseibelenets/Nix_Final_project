@@ -20,8 +20,8 @@ const Nav =()=>{
     return(
         <div className='header'>
             <p>{name}</p>
-            <p>Ваша ставка {money}$</p>
-            <p>Ваш Балланс {total}$</p>
+            <p>Ваша ставка {money.toFixed(2)}$</p>
+            <p>Ваш Балланс {total.toFixed(2)}$</p>
             <button className='btn' onClick={handlereset}>Заново</button>
         </div>
     )
